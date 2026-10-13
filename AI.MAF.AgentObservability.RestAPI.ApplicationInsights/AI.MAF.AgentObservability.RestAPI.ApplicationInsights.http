@@ -1,0 +1,6 @@
+@AI.MAF.AgentObservability.RestAPI.ApplicationInsights_HostAddress = http://localhost:5028
+
+GET {{AI.MAF.AgentObservability.RestAPI.ApplicationInsights_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

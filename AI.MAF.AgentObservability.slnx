@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="AI.MAF.AgentObservability.Aspire.AppHost/AI.MAF.AgentObservability.Aspire.AppHost.csproj" />
+  <Project Path="AI.MAF.AgentObservability.RestAPI.ApplicationInsights/AI.MAF.AgentObservability.RestAPI.ApplicationInsights.csproj" />
+  <Project Path="AI.MAF.AgentObservability.RestAPI.DEVUI/AI.MAF.AgentObservability.RestAPI.DEVUI.csproj" />
+</Solution>

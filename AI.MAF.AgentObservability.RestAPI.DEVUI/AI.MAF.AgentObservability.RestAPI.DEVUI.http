@@ -1,0 +1,6 @@
+@AI.MAF.AgentObservability.RestAPI.DEVUI_HostAddress = http://localhost:5010
+
+GET {{AI.MAF.AgentObservability.RestAPI.DEVUI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

@@ -1,0 +1,17 @@
+<Project Sdk="Aspire.AppHost.Sdk/13.6.1">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <AspireUseCliBundle>true</AspireUseCliBundle>
+    <UserSecretsId>d9e1c112-f9e5-479c-9201-117c25b91e90</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AI.MAF.AgentObservability.RestAPI.ApplicationInsights\AI.MAF.AgentObservability.RestAPI.ApplicationInsights.csproj" />
+    <ProjectReference Include="..\AI.MAF.AgentObservability.RestAPI.DEVUI\AI.MAF.AgentObservability.RestAPI.DEVUI.csproj" />
+  </ItemGroup>
+
+</Project>
