@@ -10,7 +10,7 @@ namespace AI.MAF.AgentObservability.RestAPI.ApplicationInsights.Controllers;
 [Route("[controller]")]
 public class WeatherForecastController : ControllerBase
 {
-    const string SourceName = "Workflow.ApplicationInsightsSample";
+    const string SourceName = "Agent.ApplicationInsightsSample";
     private ActivitySource _activitySource;
     private Meter _developerAgentMeter;
     private readonly Counter<long> _developerAgentCallCounter;
